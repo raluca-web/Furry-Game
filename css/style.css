@@ -1,74 +1,121 @@
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Oswald", Arial, sans-serif;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  background-color: darkgrey;
 }
+
+section#welcome {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+section#welcome .wrapper {
+  width: 100vw;
+  height: 1px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section#welcome button {
+  width: 25rem;
+  height: 5rem;
+  position: absolute;
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: dimgrey;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid black;
+  z-index: 1;
+  cursor: pointer;
+}
+
 
 section#score {
   width: 100%;
 }
 
 #board {
-  width: 640px;
-  height: 640px;
-  margin: 1em auto;
+  width: 650px;
+  height: 650px;
+  margin: 2em auto;
 }
 
-#board  > div {    
-  border: 1px solid black;
+#board > div {
+  border: 2px solid dimgrey;
   float: left;
-  width: 64px;
-  height: 64px;
+  width: 65px;
+  height: 65px;
+  background-color: white;
 }
-
 
 section#score div {
   width: 10em;
-  height: 3em;
+  height: 4em;
   text-align: center;
   padding: 0.5em;
-  background-color: rgba(211,211,211, 0.75);
-  border: 1px solid lightgray;
+  background-color: #666666;
+  color: white;
   border-radius: 1px;
-  box-shadow: 1px 1px 5px 1px lightgray;
-  margin: 1em auto;
+  margin: 3em auto;
+  border: 1px solid #212121;
 }
-
-
-
 
 .furry {
   background-image: url('../images/furry.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 .coin {
   background-image: url('../images/coin.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+
 section#over {
   position: fixed;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
+  width: 640px;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
   z-index: 1;
-  padding: 10px;
-  background-color: rgba(255, 255, 0, 0.75);
+  padding: 20px;
+  background-color: dimgrey;
+  border: 1px solid #212121;
 }
 
-section#over pre {
+section#over div {
   display: inline-block;
   width: 100%;
   text-align: center;
-  font-size: 10px;
   font-weight: bolder;
-  color: brown;
+  color: white;
+  font-size: 32px;
+}
+
+
+section#over button {
+  border: 1px solid #212121;
+  width: 50%;
+  margin-left: 25%;
+  background-color: white;
+  color: black;
+  font-size: 22px;
+  margin-bottom: 20px;
 }
 
 .invisible {

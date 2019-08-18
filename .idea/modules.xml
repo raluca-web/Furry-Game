@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BUC_FER_S_02_Furry_Game_EN.iml" filepath="$PROJECT_DIR$/.idea/BUC_FER_S_02_Furry_Game_EN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../BUC_FER_S_02_JavaScript_EN/.idea/BUC_FER_S_02_JavaScript_EN.iml" filepath="$PROJECT_DIR$/../BUC_FER_S_02_JavaScript_EN/.idea/BUC_FER_S_02_JavaScript_EN.iml" />
+    </modules>
+  </component>
+</project>
